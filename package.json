@@ -1,0 +1,22 @@
+{
+  "name": "@noxeternal/pdfgen-refact",
+  "version": "1.1.1",
+  "main": "src/index.js",
+  "repository": "git://github.com/noxeternal/pdfgen-refact.git",
+  "author": "Alina Shumann <ashumann13@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "commander": "^2.11.0",
+    "event-stream": "^3.3.4",
+    "hummus": "^1.0.110",
+    "winston": "^2.3.1"
+  },
+  "bin": {
+    "pdfgen-server": "bin/server.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {}
+}
